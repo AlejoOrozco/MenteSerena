@@ -40,34 +40,28 @@ export const Waves = () => {
     <div className="waves-container">
       <div className="waves-side waves-left">
         <svg className="wave wave-1" viewBox="0 0 200 2000" preserveAspectRatio="none">
-          <path d={wave1BgPath} className="wave-bg" fill="currentColor"/>
           <path d={wave1Path} 
                 fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
         </svg>
         <svg className="wave wave-2" viewBox="0 0 200 2000" preserveAspectRatio="none">
-          <path d={wave2BgPath} className="wave-bg" fill="currentColor"/>
           <path d={wave2Path} 
                 fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
         </svg>
         <svg className="wave wave-3" viewBox="0 0 200 2000" preserveAspectRatio="none">
-          <path d={wave3BgPath} className="wave-bg" fill="currentColor"/>
           <path d={wave3Path} 
                 fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
         </svg>
       </div>
       <div className="waves-side waves-right">
         <svg className="wave wave-1" viewBox="0 0 200 2000" preserveAspectRatio="none">
-          <path d={wave1BgPath} className="wave-bg" fill="currentColor"/>
           <path d={wave1Path} 
                 fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
         </svg>
         <svg className="wave wave-2" viewBox="0 0 200 2000" preserveAspectRatio="none">
-          <path d={wave2BgPath} className="wave-bg" fill="currentColor"/>
           <path d={wave2Path} 
                 fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
         </svg>
         <svg className="wave wave-3" viewBox="0 0 200 2000" preserveAspectRatio="none">
-          <path d={wave3BgPath} className="wave-bg" fill="currentColor"/>
           <path d={wave3Path} 
                 fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
         </svg>
