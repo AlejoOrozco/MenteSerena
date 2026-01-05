@@ -18,23 +18,15 @@ const generateWavePath = (amplitude: number, frequency: number, offset: number =
   return points.join('')
 }
 
-// Generate background path (closed shape for fill)
-const generateWaveBgPath = (amplitude: number, frequency: number, offset: number = 0) => {
-  const wavePath = generateWavePath(amplitude, frequency, offset)
-  return `M0,0 ${wavePath} L0,2000 Z`
-}
 
 export const Waves = () => {
   // Using parameters: amplitude (how far waves go), frequency (spacing - higher = more space), offset (phase)
   // Lower frequency = more space between peaks (we want ~450px spacing, so frequency ~4.5)
   const wave1Path = generateWavePath(20, 3, Math.PI / 2)
-  const wave1BgPath = generateWaveBgPath(20, 3, Math.PI / 2)
   
   const wave2Path = generateWavePath(20, 3, Math.PI / 2)
-  const wave2BgPath = generateWaveBgPath(20, 3, Math.PI / 2)
   
   const wave3Path = generateWavePath(20, 3, Math.PI / 2)
-  const wave3BgPath = generateWaveBgPath(20, 3, Math.PI / 2)
 
   return (
     <div className="waves-container">
