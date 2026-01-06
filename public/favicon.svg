@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="48" fill="#2D4A3E" opacity="0.9"/>
+  
+  <!-- Simplified wave/calm symbol -->
+  <path d="M 20 50 Q 30 40, 40 50 Q 50 60, 60 50 Q 70 40, 80 50" 
+        stroke="#F5F1E8" 
+        stroke-width="4" 
+        fill="none" 
+        stroke-linecap="round"/>
+  
+  <!-- Small dots representing calm/peace -->
+  <circle cx="35" cy="45" r="2" fill="#F5F1E8"/>
+  <circle cx="50" cy="50" r="2" fill="#F5F1E8"/>
+  <circle cx="65" cy="45" r="2" fill="#F5F1E8"/>
+</svg>
+
